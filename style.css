@@ -248,11 +248,11 @@ footer p {
   top: 5.65vw;
   right: 11.458vw;
 }
-.fb:hover,
+/* .fb:hover,
 .insta:hover,
 .twitter:hover {
   background: var(--brick);
-}
+} */
 .loc-image {
   width: 100vw;
   height: 41.7vw;
@@ -334,6 +334,9 @@ footer p {
 .loc-insta:hover,
 .loc-twitter:hover {
   background: white;
+}
+svg:hover path {
+  fill: var(--brick);
 }
 /* ---------------------------------
   -----------------------------------
