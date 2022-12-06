@@ -590,7 +590,7 @@ footer p {
     align-items: flex-start;
     flex-direction: column;
     margin-bottom: 32vw;
-    margin-top: 32vw;
+    /* margin-top: 32vw; */
     padding-left: 2.8vw;
   }
   .mob-image-1 {
