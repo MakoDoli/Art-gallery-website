@@ -35,7 +35,7 @@ h1 {
   color: white;
   position: absolute;
   top: 13.125vw;
-  left: 11.45833vw;
+  left: 11.52vw;
 }
 h2 {
   font-family: "Big Shoulders Display";
@@ -72,8 +72,11 @@ h3 {
   --brick: #d5966c;
 }
 .h1-black {
-  left: 31.31944vw;
+  left: 31.5vw;
   color: var(--black);
+}
+.tablet-h1 {
+  display: none;
 }
 .hd-img {
   width: 37.7vw;
@@ -355,6 +358,9 @@ footer p {
   }
   .h1-black {
     display: none;
+  }
+  .tablet-h1 {
+    display: block;
   }
   .tablet-header-image {
     display: inline-block;
